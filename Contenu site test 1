@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Exclusif - Événements</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le site du Club Exclusif</h1>
+        <nav>
+            <ul>
+                <li><a href="#evenements">Événements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="evenements">
+            <h2>Prochains événements</h2>
+            <article>
+                <h3>Soirée au Château de Canon</h3>
+                <p>Date : 15 mars</p>
+                <p>Rejoignez-nous pour une soirée exclusive dans un cadre somptueux.</p>
+                <a href="https://www.billetterie.com/evenement" target="_blank" class="btn">Réserver vos billets</a>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Email : <a href="mailto:contact@clubexclusif.com">contact@clubexclusif.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Club Exclusif. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
