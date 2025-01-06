@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bienvenue sur le site officiel de The Castle Club. Rejoignez-nous pour des soirées exclusives dans des lieux d'exception.">
+  <title>The Castle Club</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Styles de base intégrés */
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('banner.jpg') no-repeat center center/cover;
+      color: white;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.5rem;
+    }
+
+    nav {
+      background: #222;
+      color: white;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .about, .events {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .about h2, .events h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      font-size: 1.2rem;
+      margin: 0 auto 20px;
+      max-width: 800px;
+    }
+
+    .events-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .event {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      max-width: 300px;
+      text-align: left;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .event img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .event h3 {
+      margin: 15px 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .event p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .event a {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background: #222;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+
+    .event a:hover {
+      background: #555;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>The Castle Club</h1>
+      <p>Découvrez des soirées exclusives dans des lieux d'exception.</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#events">Événements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>À propos</h2>
+    <p>Bienvenue dans un club unique dédié à l'élégance et à la tradition. Nous organisons des événements prestigieux dans des lieux historiques, pour une expérience inoubliable.</p>
+  </section>
+
+  <section id="events" class="events">
+    <h2>Nos événements</h2>
+    <div class="events-grid">
+      <div class="event">
+        <img src="event1.jpg" alt="Événement 1">
+        <h3>Soirée au Château de Canon</h3>
+        <p>Rejoignez-nous pour une soirée mémorable dans un cadre enchanteur.</p>
+        <a href="https://reservation.lien">Réservez maintenant</a>
+      </div>
+      <div class="event">
+        <img src="event2.jpg" alt="Événement 2">
+        <h3>Dîner de gala</h3>
+        <p>Un dîner exclusif dans l'une des plus belles salles de réception.</p>
+        <a href="https://reservation.lien">Réservez maintenant</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Castle Club. Tous droits réservés.</p>
+    <p>Contactez-nous : <a href="mailto:contact@thecastleclub.fr">contact@thecastleclub.fr</a></p>
+  </footer>
+</body>
+</html>
